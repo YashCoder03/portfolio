@@ -2,7 +2,7 @@ const links = [
 	{
 		id: 'home-page',
 		text: 'home',
-		url: '/',
+		url: '/portfolio',
 	},
 	{
 		id: 'about-page',
