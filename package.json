@@ -20,12 +20,16 @@
 		"web-vitals": "^2.1.4"
 	},
 	"devDependencies": {
+		"gh-pages": "^6.3.0",
 		"sass": "^1.79.4"
 	},
+	"homepage": "https://YashCoder03.github.io/portfolio",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
